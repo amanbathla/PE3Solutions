@@ -11,6 +11,8 @@ import java.io.IOException;
 
 public class GenerateExceptions {
 
+    //Function to Generate exceptions
+
     public static  void main(String args[]){
 
         int[] arr = new int[5];

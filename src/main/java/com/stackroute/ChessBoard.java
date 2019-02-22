@@ -18,6 +18,9 @@ package com.stackroute;
 public class ChessBoard {
 
 
+
+    // function for chess board logic
+
     public String[][] createChessBoard(){
 
         String[][] chessBoard = new String[8][8];
@@ -34,11 +37,7 @@ public class ChessBoard {
 
 
             }
-            for (String str : chessBoard[i]) {
-                System.out.println(str);
-            }
-
-
+       
         }
 
         return chessBoard;

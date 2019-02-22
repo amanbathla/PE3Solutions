@@ -12,6 +12,9 @@ package com.stackroute;
 public class ConsecutiveNumbers {
 
 
+
+    //Functionn for consecutive numbers
+
     public Boolean consecutiveNumbers(String numbers){
         boolean consecutive = false, increase = false ,decrease = false;
         String[] num = numbers.split(" ");

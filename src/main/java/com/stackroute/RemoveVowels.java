@@ -16,6 +16,8 @@ package com.stackroute;
 
 public class RemoveVowels {
 
+    //Remove vowels from the String
+
     public String[] stringwithoutvowels(String arr[]){
         String[] resultString = new String[arr.length];
         for(int i=0;i<arr.length;i++){

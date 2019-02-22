@@ -9,6 +9,9 @@ import java.io.IOException;
 
 public class sampleException {
 
+
+    //Function to find out the sample exceptions
+
     public static  void main(String args[]){
 
         try{

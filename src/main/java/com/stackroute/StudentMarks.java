@@ -11,6 +11,8 @@ import java.util.Scanner;
 public class StudentMarks {
 
 
+    //Boolean function to check if the grade is in integer or not
+
     public Boolean isGradeCorrect(String[] arrGrades,int noOfStudents){
 
         Boolean isgradeCorrect = false;

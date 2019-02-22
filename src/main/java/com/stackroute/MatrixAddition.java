@@ -16,6 +16,7 @@ package com.stackroute;
 
 public class MatrixAddition {
 
+//Java function for matrix addition
 
     public int[][] matrixaddition(int[][] firstMatrix,int[][] secondMatrix){
 
