@@ -27,6 +27,7 @@ public class StudentMarks {
                isgradeCorrect = false;
             }
             else{
+
                 isgradeCorrect = true;
             }
 
@@ -37,11 +38,20 @@ public class StudentMarks {
 //check for an integer
     public static boolean isInteger(String s) {
         try {
-            Integer.parseInt(s);
+           int checkGrade = Integer.parseInt(s);
+
+             if(checkGrade > 100 || checkGrade < 0){
+               return false;
+              }
+             else{
+                 return true;
+             }
+
+
         } catch(NumberFormatException e) {
             return false;
         }
         // only got here if we didn't return false
-        return true;
+
     }
 }

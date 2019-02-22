@@ -28,4 +28,12 @@ public class ConsecutiveNumbersTest {
         assertTrue(consecutiveNumbers.consecutiveNumbers("54 55 56"));
         assertFalse(consecutiveNumbers.consecutiveNumbers("56 55 56 55 56"));
     }
+
+    @Test
+    public void consecutiveNumbers1() {
+
+        assertTrue(consecutiveNumbers.consecutiveNumbers("55 54 53"));
+        assertTrue(consecutiveNumbers.consecutiveNumbers("94 95 96"));
+        assertFalse(consecutiveNumbers.consecutiveNumbers("56 55 56 55 56"));
+    }
 }

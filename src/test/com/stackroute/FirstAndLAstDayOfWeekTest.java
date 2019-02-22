@@ -25,4 +25,5 @@ public class FirstAndLAstDayOfWeekTest {
         assertEquals("SUN 4/2/2019",lAstDayOfWeek.findLastDate(28,12,2019));
         assertEquals("SUN 30/1/2019",lAstDayOfWeek.findLastDate(28,12,2019));
     }
+
 }

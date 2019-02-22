@@ -19,10 +19,13 @@ public class RemoveVowels {
     //Remove vowels from the String
 
     public String[] stringwithoutvowels(String arr[]){
+
         String[] resultString = new String[arr.length];
-        for(int i=0;i<arr.length;i++){
-            resultString[i] = arr[i].replaceAll("[aeiou]", "");
-        }
-        return resultString;
+
+            for(int i=0;i<arr.length;i++){
+                    resultString[i] = arr[i].replaceAll("[aeiou]", "");
+                }
+
+         return resultString;
     }
 }

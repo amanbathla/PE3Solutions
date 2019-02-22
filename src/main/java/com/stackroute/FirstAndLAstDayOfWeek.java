@@ -10,8 +10,9 @@ import java.util.Date;
 public class FirstAndLAstDayOfWeek {
 
     //Function to find first and last day of the week
-    
+
  public  String findLastDate(int dd,int mm,int yyyy){
+
      int lastDay = dd + 6;
      int month = mm;
      int year = yyyy;

@@ -33,4 +33,18 @@ public class StudentMarksTest {
        assertEquals(false,stdMArks.isGradeCorrect(Grades2,noOfStudents));
 
     }
+
+    @Test
+    public void isGradeCorrect1() {
+        int noOfStudents = 4;
+        String[] Grades = {"80","90","100","40"};
+        String[] Grades1 = {"50","60","110","80"};
+        String[] Grades2 = {"50","-17","70","aman"};
+
+
+        assertEquals(true,stdMArks.isGradeCorrect(Grades,noOfStudents));
+        assertNotEquals(false,stdMArks.isGradeCorrect(Grades1,noOfStudents));
+        assertEquals(false,stdMArks.isGradeCorrect(Grades2,noOfStudents));
+
+    }
 }

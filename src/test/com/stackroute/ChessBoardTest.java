@@ -27,6 +27,7 @@ public class ChessBoardTest {
 
     @Test
     public void createChessBoard() {
+
        String[][] expectedArray = { {"WW","BB","WW","BB","WW","BB","WW","BB"},
         {"BB","WW","BB","WW","BB","WW","BB","WW"},
         {"WW","BB","WW","BB","WW","BB","WW","BB"},
@@ -35,6 +36,7 @@ public class ChessBoardTest {
         {"BB","WW","BB","WW","BB","WW","BB","WW"},
         {"WW","BB","WW","BB","WW","BB","WW","BB"},
         {"BB","WW","BB","WW","BB","WW","BB","WW"}};
+
        assertArrayEquals(expectedArray,chessBoard.createChessBoard());
 
         //assertArrayEquals();

@@ -40,4 +40,27 @@ public class MatrixAdditionTest {
         assertNotNull(" ");
 
            }
+
+
+
+    @Test
+    public void matrixaddition1() {
+
+        int firstArray[][] = {
+                {3,4},{5,6},
+                {7,8}
+        };
+        int secondArray[][] = {
+                {9,10},{11,12},
+                {13,14}
+        };
+
+        int expextedSum[][] = {
+                {12,14},{16,18},{20,22}
+        };
+
+        assertArrayEquals(expextedSum,matAddition.matrixaddition(firstArray,secondArray));
+        assertNotNull(" ");
+
+    }
 }

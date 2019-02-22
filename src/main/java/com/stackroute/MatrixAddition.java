@@ -25,11 +25,11 @@ public class MatrixAddition {
 
         int[][] actualSum = new int[rows][col];
 
-        for(int i = 0;i<rows;i++){
-            for(int j= 0;j<col;j++){
-                actualSum[i][j] = firstMatrix[i][j] + secondMatrix[i][j];
-            }
-        }
+             for(int i = 0;i<rows;i++){
+                 for(int j= 0;j<col;j++){
+                     actualSum[i][j] = firstMatrix[i][j] + secondMatrix[i][j];
+                      }
+                }
 
         return actualSum;
     }

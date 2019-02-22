@@ -30,4 +30,20 @@ public class RemoveVowelsTest {
         assertNotEquals(unexpectedArray,removeVowels.stringwithoutvowels(Array));
 
     }
+
+
+    @Test
+    public void stringwithoutvowels1() {
+
+        String[] Array = {"India","United States","Egypt","Germeny","Pakistan"};
+        String[] expectedArray = {"Ind","Untd Stts","Egypt","Grmny","Pkstn"};
+        String[] unexpectedArray = {"India","Untaxd Stts","Egdddsypt","Grmny","czchdslvk"};
+
+        assertArrayEquals(expectedArray,removeVowels.stringwithoutvowels(Array));
+        assertNotEquals(unexpectedArray,removeVowels.stringwithoutvowels(Array));
+
+    }
+
+
+
 }
